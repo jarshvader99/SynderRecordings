@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Synder Recordings</title>
+    <link rel="icon" href="~/images/logo/SVGS/SRRecordings_white.svg" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="https://kit.fontawesome.com/cc0caf5638.js" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZ7y3ketWxSUphJBfNQpBZ5HlkEGGTTxM&callback=initMap&libraries=&v=weekly"
+            defer></script>
+</head>
+<body>
+
+
+    @RenderBody()
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="~/js/jcarousel.js"></script>
+    <script type="text/javascript" src="~/js/jcarousel-responsive.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
