@@ -981,8 +981,9 @@
 
     #navbar-links {
         float: right;
-        margin: .325rem;
-        width: 85%;
+        margin: 0;
+        width: 88%;
+        margin-top: 9px;
     }
 
     #navbar a {
@@ -992,9 +993,9 @@
         color: #001D5D;
         font-weight: 800;
         text-align: center;
-        padding: 14px;
+        padding: 10px;
         text-decoration: none;
-        margin: 1rem 3.75rem 1rem 0;
+        margin: 1rem .75rem 1rem 0;
     }
 
     .nav_link {
@@ -1190,7 +1191,7 @@
 
     .section-right {
         width: 45%;
-        float: left;
+        float: right;
         height: 100%;
     }
 
@@ -1202,10 +1203,6 @@
 
     #img-profile {
         margin: 5rem 1rem 5rem 5rem;
-    }
-
-    .section-right {
-        margin: 2.3rem 1rem 5rem 5rem;
     }
 
     .bio-p {
@@ -1221,6 +1218,7 @@
 
     #contact-image {
         float: right;
+        width:100%
     }
 
     #new-header {
@@ -1250,9 +1248,7 @@
     }
 
         .input-form input[type=text], select {
-            width: 48%;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
+            width: 47%;
         }
 
     .contact-form {
@@ -1286,7 +1282,7 @@
     .column-6-middle {
         margin-top: 3rem;
         color: #FFFFFF;
-        width: 16.6%;
+        width: 14.6%;
         float: left;
     }
 
@@ -1305,7 +1301,7 @@
     .column-6-right {
         margin-top: 3rem;
         color: #FFFFFF;
-        width: 17.6%;
+        width: 26.6%;
         float: right;
     }
 
@@ -1322,7 +1318,7 @@
     }
 
     #footer {
-        position: relative;
+        position: absolute;
         bottom: 0;
         margin: auto;
         width: 100%;
@@ -1588,9 +1584,14 @@
     i {
         color: #001D5D;
     }
+
+    .google-map {
+        position: relative;
+        top: 0px;
+    }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
     html, body {
         font-family: Karla;
         font-size: 16px;
